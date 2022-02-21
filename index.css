@@ -1,0 +1,17 @@
+body { 
+	background-color: green;
+}
+
+h1:hover{
+	background-color: powderblue;
+}
+
+h1 {
+     transition: 0.5s;
+     color: navy;
+     font-size: 150%;
+}
+
+p {
+     color: red;
+}
