@@ -1,17 +1,92 @@
-body { 
-	background-color: green;
+
+
+.container{
+     display: flex;
+     flex-direction: column;
+     padding: 0px;
+     margin: 0px;
 }
 
-h1:hover{
-	background-color: powderblue;
+
+
+ /* .top{
+
+}                               
+
+.middle{
+}
+
+.bottom{
+
+} */
+
+.main{
+     border: 1px;
+     border-color:  black;
+}
+
+.box{
+     display: flex;
+     flex-direction: row;
+     background-color: #2B0200;
+     border-radius: 3px;
+     color: black; 
+     border-style: solid;
+     border: 1px;
+     border-color: #2B0200; /*irrelevant, anschauen warum */
+     padding: 3px;
+     margin: 2px;
+     text-align: center;
+}
+
+
+.hf{ /* Für bottom und Top für den Stil relevant */
+     flex: 1 1 0px;
+     border-style: none;
+     border-radius: 3px;
+     min-height: 60px;
+     padding: 5px;
+     margin: 5px;
+     background-color: #FFE02C;
+}
+
+.left{
+     flex: 0.5 1 0px;
+     border-style: none;
+     border-radius: 3px;
+     min-height: 500px;
+     padding: 5px;
+     margin: 5px;
+     background-color: white;
+}
+
+.center{
+     flex: 1 1 0px;
+     border-style: none;
+     border-radius: 3px;
+     background-color: white; /*#8E72E9 */
+     padding: 5px;
+     margin: 5px;
+}
+
+img {
+     border-radius: 3px;
+     max-width:1000px;
+     min-width: 600px;
+     max-height: 600px;
+}
+
+body{
+     background-color: lightgray; /*#AF9AF3 */
 }
 
 h1 {
-     transition: 0.5s;
-     color: navy;
-     font-size: 150%;
+     border-style: solid;
+     border: 1px;
+     border-color: black;
 }
-
-p {
-     color: red;
-}
+*, html {
+     margin:0;
+     padding:0;  
+     font-family: 'Roboto Condensed', sans-serif;
+ }
